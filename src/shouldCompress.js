@@ -1,5 +1,5 @@
 const MIN_COMPRESS_LENGTH = 1024
-const MIN_TRANSPARENT_COMPRESS_LENGTH = MIN_COMPRESS_LENGTH * 20
+const MIN_TRANSPARENT_COMPRESS_LENGTH = MIN_COMPRESS_LENGTH * 5
 
 function shouldCompress(req) {
   const { originType, originSize, webp } = req.params
