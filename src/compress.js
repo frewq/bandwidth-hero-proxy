@@ -7,7 +7,7 @@ function compress(req, res, input) {
   sharp(input)
     .grayscale(req.params.grayscale)
     .toFormat(format, {
-      quality: req.params.quality,
+      quality: 5,
       progressive: true,
       optimizeScans: true
     })
