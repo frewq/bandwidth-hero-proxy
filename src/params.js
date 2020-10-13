@@ -1,4 +1,4 @@
-const DEFAULT_QUALITY = 40
+const DEFAULT_QUALITY = 20
 
 function params(req, res, next) {
   let url = req.query.url
